@@ -23,7 +23,7 @@ pipeline {
         }
         stage('Checkout K8S manifest SCM'){
             steps {
-              git branch: 'main', url: 'https://github.com/saddamhussain111/hiring_app.git'
+              git branch: 'main', url: 'https://github.com/saddamhussain111/Hiring-app-argocd.git'
             }
         } 
         stage('Update K8S manifest & push to Repo'){
